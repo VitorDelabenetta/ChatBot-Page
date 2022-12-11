@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>ChatBot - First JavaScript Project</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0"/>
+    <meta name="description" content="Simples ChatBot para aprendizado de JavaScript, utilizando a prática como forma de estudo.">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+    <div class="glass">
+        <h1>FAÇA SUA PERGUNTA</h1>
+        <h2>Pode escrevê-la abaixo:</h2>
+        <div class="input">
+            <input type="text" id="userBox" onkeydown="if(event.keyCode == 13){ talk()}" placeholder="Qual é a sua dúvida?"/>
+        </div>
+        <p id="chatLog">Receba sua resposta</p>
+    </div>
+
+        <script src="/chatbot.js"></script>
+</body>
+</html>
